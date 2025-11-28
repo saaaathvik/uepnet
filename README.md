@@ -16,7 +16,7 @@ The framework introduces an Upfront Exit Predictor (UEP), a lightweight module t
 ![Sample Classification Output](classification_op.png)
 
 ## Sample Output - Object Detection (YOLOv8m)
-![Sample Object Detection Output](objectdetection_op.pdf)
+![Sample Object Detection Output](objectdetection_op.png)
 
 ## Installation & Requirements
 
