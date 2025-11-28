@@ -12,6 +12,12 @@ The framework introduces an Upfront Exit Predictor (UEP), a lightweight module t
 | `detection_training.ipynb` | Training script for the Object Detection backbone (YOLOv8) on the BDD100K dataset. |
 | `uep.ipynb` | Implementation and evaluation of the Upfront Exit Predictor (UEP) for object detection. |
 
+## Sample Output - Classification (VGG-16)
+![Sample Classification Output](classification_op.png)
+
+## Sample Output - Object Detection (YOLOv8m)
+![Sample Object Detection Output](objectdetection_op.png)
+
 ## Installation & Requirements
 
 The project requires Python 3.8+ and a GPU-enabled environment.
