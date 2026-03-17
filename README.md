@@ -7,6 +7,16 @@ UEPNet is an experimental framework for reducing inference latency in early-exit
 - An **Upfront Exit Predictor (UEP)** that learns to predict which model exit will yield the best tradeoff between accuracy and compute.
 - Utilities for **latency benchmarking**, **visual explainability (Grad-CAM / LIME)**, and **deployment** via Gradio.
 
+## Sample Outputs
+
+**Sample output across varying driving conditions**
+
+![Sample output across varying driving conditions](op.mp4)
+
+**Sample model functioning on the CARLA simulator**
+
+![Sample model functioning on the CARLA simulator](carla_op.mp4)
+
 ## Repository Structure
 
 | File                       | Description                                                                                       |
@@ -20,16 +30,6 @@ UEPNet is an experimental framework for reducing inference latency in early-exit
 | `explainability.ipynb`     | Grad-CAM and LIME explainability analysis for the YOLO early/final models and the UEP regressor.  |
 | `yolo-latency.ipynb`       | Latency benchmarking for YOLO models and UEP regressor; includes YOLO model training experiments. |
 | `carla.ipynb`              | CARLA simulator integration that runs conditional inference using UEP for real-time video.        |
-
-<figure>
-  <video src="op.mp4" autoplay loop muted playsinline width="100%"></video>
-  <figcaption>Sample output across varying driving conditions</figcaption>
-</figure>
-
-<figure>
-  <video src="carla_op.mp4" autoplay loop muted playsinline width="100%"></video>
-  <figcaption>Sample model functioning on the CARLA simulator</figcaption>
-</figure>
 
 ## Dataset Sources
 
