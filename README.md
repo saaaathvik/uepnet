@@ -11,8 +11,6 @@ UEPNet is an experimental framework for reducing inference latency in early-exit
 
 | File                       | Description                                                                                       |
 | :------------------------- | :------------------------------------------------------------------------------------------------ |
-| `README.md`                | This file.                                                                                        |
-| `README.txt`               | Plain text version of this README (no Markdown formatting).                                       |
 | `requirements.txt`         | List of Python dependencies used across notebooks and scripts.                                    |
 | `deployment.py`            | Gradio app to run inference using the trained UEP regressor and YOLO early/final models.          |
 | `classification.ipynb`     | CIFAR-10 early-exit classification pipeline and UEP training.                                     |
@@ -22,8 +20,16 @@ UEPNet is an experimental framework for reducing inference latency in early-exit
 | `explainability.ipynb`     | Grad-CAM and LIME explainability analysis for the YOLO early/final models and the UEP regressor.  |
 | `yolo-latency.ipynb`       | Latency benchmarking for YOLO models and UEP regressor; includes YOLO model training experiments. |
 | `carla.ipynb`              | CARLA simulator integration that runs conditional inference using UEP for real-time video.        |
-| `classification_op.png`    | Example output visualization from the CIFAR-10 classification pipeline.                           |
-| `objectdetection_op.png`   | Example output visualization from the YOLO object detection pipeline.                             |
+
+<figure>
+  <video src="op.mp4" autoplay loop muted playsinline width="100%"></video>
+  <figcaption>Sample output across varying driving conditions</figcaption>
+</figure>
+
+<figure>
+  <video src="carla_op.mp4" autoplay loop muted playsinline width="100%"></video>
+  <figcaption>Sample model functioning on the CARLA simulator</figcaption>
+</figure>
 
 ## Dataset Sources
 

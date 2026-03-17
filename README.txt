@@ -9,12 +9,6 @@ UEPNet is an experimental framework for reducing inference latency in early-exit
 
 Repository Structure
 
-File: README.md
-Description: This file.
-
-File: README.txt
-Description: Plain text version of this README (no Markdown formatting).
-
 File: requirements.txt
 Description: List of Python dependencies used across notebooks and scripts.
 
@@ -41,12 +35,6 @@ Description: Latency benchmarking for YOLO models and UEP regressor; includes YO
 
 File: carla.ipynb
 Description: CARLA simulator integration that runs conditional inference using UEP for real-time video.
-
-File: classification_op.png
-Description: Example output visualization from the CIFAR-10 classification pipeline.
-
-File: objectdetection_op.png
-Description: Example output visualization from the YOLO object detection pipeline.
 
 Dataset Sources
 
