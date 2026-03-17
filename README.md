@@ -11,11 +11,11 @@ UEPNet is an experimental framework for reducing inference latency in early-exit
 
 **Sample output across varying driving conditions**
 
-![Sample output across varying driving conditions](https://github.com/saaaathvik/uepnet/releases/download/v1.0/op.mp4)
+https://github.com/saaaathvik/uepnet/releases/download/v1.0/op.mp4
 
 **Sample model functioning on the CARLA simulator**
 
-![Sample model functioning on the CARLA simulator](https://github.com/saaaathvik/uepnet/releases/download/v1.0/carla_op.mp4)
+https://github.com/saaaathvik/uepnet/releases/download/v1.0/carla_op.mp4
 
 ## Repository Structure
 
