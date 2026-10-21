@@ -77,5 +77,6 @@ The per-frame breakdown below splits latency into backbone/detector computation 
 pip install -r requirements.txt
 ```
 
-The notebooks were run on Kaggle with NVIDIA T4 GPUs and expect the datasets as Kaggle inputs or local copies:
+The notebooks were run on Kaggle with NVIDIA T4 GPUs.
+
 [BDD100K](https://bdd-data.berkeley.edu/) · [KITTI](https://www.cvlibs.net/datasets/kitti/) · [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) · [CARLA](https://carla.org/)
